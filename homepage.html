@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STYLiSH</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <a href="./homepage"><img id="logo" src="images/logo.png"></a>
+      </div>
+      <nav class="categories">
+        <div class="styleChoice"><a href="?category=women">女裝</a></div>
+        <div class="split"></div>
+        <div class="styleChoice"><a href="?category=men">男裝</a></div>
+        <div class="split"></div>
+        <div class="styleChoice"><a href="?category=accessories">配件</a></div>
+      </nav>
+      <input class="searchBarMobile searchInput">
+      <button id="searchMobile">
+        <img id="searchMobileImg" src="images/search.png">
+      </button>
+      <div class="functionContainer">
+        <div class="searchBar">
+          <input class="searchInput" placeholder="西裝">
+          <img id="searchBarImg" src="images/search.png">
+        </div>
+        <div class="cart-container desktop">
+          <a href="/checkout">
+          <img class="cart desktop" src="images/cart.png">
+          <div class="cart-badge"></div>
+          </a>
+        </div>
+        <a class="memberLink" href="#">
+          <img class="memberlogo desktop" src="images/member.png">
+        </a>
+        </div>
+      </div>
+    </header>
+    <div class="tab">
+      <div class="shoppingCart">
+        <a id="shoppingCartMobileLink" href="/checkout">
+          <div class="cart-container-mobile">
+            <img src="images/cart-mobile.png">
+            <div class="cart-badge-mobile">1</div>
+          </div>
+          <span>購物車</span>
+        </a>
+      </div>
+      <div class="tab_split"></div>
+      <div class="member">
+        <a id="memberMobileLink" href="#">
+          <img src="images/member-mobile.png">
+          <span>會員</span>
+        </a>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="keyVisualContainer">
+      </div>
+      <div class="sloganContainer">
+      </div>
+      <div class="carouselBtnContainer">
+      </div>
+    </div>
+    <main>
+      <div class="productContainer">
+        <img id="loadingIcon" src="./images/loading.gif">
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footerLinkContainer">
+        <button class="footerLink"><a href="#">關於 STYLiSH</a></button>
+        <div class="footerSplit"></div>
+        <button class="footerLink"><a href="#">服務條款</a></button>
+        <div class="footerSplit"></div>
+        <button class="footerLink"><a href="#">隱私政策</a></button>
+        <div class="footerSplit"></div>
+        <button class="footerLink"><a href="#">聯絡我們</a></button>
+        <div class="footerSplit"></div>
+        <button class="footerLink"><a href="#">FAQ</a></button>
+      </div>
+      <div class="socialMedia">
+        <a href=""><img class="socialMediaLogo" src="images/line.png"></a>
+        <a href=""><img class="socialMediaLogo" src="images/twitter.png"></a>
+        <a href=""><img class="socialMediaLogo" src="images/facebook.png"></a>
+      </div>
+      <div id="copyright">&copy; 2018. All rights reserved.</div>
+    </footer>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
